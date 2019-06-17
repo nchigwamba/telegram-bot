@@ -1,4 +1,4 @@
-def hello(bot, trusted_chat_id, msg):
+def hello(bot, trusted_chat_id, msg, arguments):
     """
     Sends a greeting message in response to an incoming message.
     """
