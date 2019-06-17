@@ -105,3 +105,5 @@ venv.bak/
 
 # IDE settings
 .vscode
+
+**/private_commands/*
