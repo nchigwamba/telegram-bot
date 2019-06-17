@@ -6,7 +6,8 @@ Click==7.0
 idna==2.8
 idna-ssl==1.1.0
 multidict==4.5.2
+selenium==3.141.0
 telepot==12.7
 typing-extensions==3.6.6
 urllib3==1.24.1
-yarl==1.3.0s58h
+yarl==1.3.0
