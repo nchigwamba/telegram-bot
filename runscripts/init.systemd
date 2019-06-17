@@ -1,0 +1,18 @@
+### Configuration
+
+[Unit]
+Description=Telegram Bot Daemon
+After=network.target
+
+[Service]
+User=pi
+Group=pi
+
+Type=simple
+ExecStart=cd /opt/telegram-bot && /opt/venv/telegram-bot/bin/python3 -m telegrambot.telegram_bot --token <your token> --trusted-chat-id <trusted chat id>
+TimeoutStopSec=25
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
